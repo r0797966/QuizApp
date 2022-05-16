@@ -1,0 +1,64 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    font-size: 2rem;
+    border: 0.1rem solid #f4b41a;
+    background-color: #302E2D;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    border: 0.1rem solid #f4b41a;
+    background-color: #f4b41a;
+    color: #302E2D;
+    font-weight: bold;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    border: 0.1rem solid #f4b41a;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.5rem 0 #ccc;
+    transform: translateY(-0.2rem);
+    transition: transform 200ms;
+}
+
+.correct {
+    background-color: #00FF00;
+}
+
+.incorrect {
+    background-color: #FF0000;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    margin-top: 1.2rem;
+    width: 20rem;
+    height: 4rem;
+    border: 0.2rem solid #FE6F27;
+}
+
+#progressBarFull {
+    height: 3.6rem;
+    background-color: #FE6F27;
+    width: 0%;
+}

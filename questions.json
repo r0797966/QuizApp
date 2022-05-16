@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What color is a ruby?",
+        "choice1": "Blue",
+        "choice2": "Yellow",
+        "choice3": "Red",
+        "choice4": "Pink",
+        "answer": 3
+    },
+    {
+        "question": "How long do elephant pregnancies last?",
+        "choice1": "9 months",
+        "choice2": "15 months",
+        "choice3": "17 months",
+        "choice4": "22 months",
+        "answer": 4
+    },
+    {
+        "question": "Demolition of the Berlin wall separating East and West Germany began in what year?",
+        "choice1": "1980",
+        "choice2": "1985",
+        "choice3": "1984",
+        "choice4": "1989",
+        "answer": 4
+    },
+    {
+        "question": "How many planets are in our solar system?",
+        "choice1": "7",
+        "choice2": "8",
+        "choice3": "9",
+        "choice4": "10",
+        "answer": 2
+    },
+    {
+        "question": "Which movie is known for 'Here's Johnny!'",
+        "choice1": "The Shining",
+        "choice2": "Halloween",
+        "choice3": "IT",
+        "choice4": "Friday The 13th",
+        "answer": 1
+    } 
+]

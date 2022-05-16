@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End!</title>
+
+    <script src="https://kit.fontawesome.com/3be4c2da83.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+            </ul>
+        </nav>
+        </header>
+    
+    <main>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore"></h1>
+            <form>
+                <input type="text" name="username" id="username" placeholder="username">
+                <button type="submit" class="btn" id="saveBtn" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a class="btn" href="/game.html">Go again</a>
+            <a class="btn" href="home.html">Go home</a>
+            <a class="btn" href="https://github.com/r0797966/Projects" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    </main>
+
+    <script src="end.js"></script>
+</body>
+</html>
