@@ -30,7 +30,7 @@ saveHighScore = (e) => {
 
     localStorage.setItem("highScores", JSON.stringify(highScores));
 
-    window.location.assign("/QuizApp/home.html");
+    window.location.assign("/QuizApp/home.html"); // changed to fit github pages
 
     console.log(highScores)
 };
